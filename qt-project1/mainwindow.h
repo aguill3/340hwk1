@@ -1,0 +1,52 @@
+/**
+* @file
+* @author Luc Renambot
+* @version 1.0
+* @section LICENSE
+*  blah blah
+* @section DESCRIPTION
+*  blah blah blah
+*/
+
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+
+namespace Ui {
+    class MainWindow;
+}
+
+/*! \brief Main class
+ *         of my application for project CS340.
+ *
+ *  Inherits for QMainWindow from Qt
+ */
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+
+//This is used to create the main window.
+public:
+     /**
+      * Constructor for MainWindow
+      *
+      * @param parent a parent widget, can be null
+      */
+    MainWindow(QWidget *parent = 0);
+    ~MainWindow();
+
+//These private slots are used to create the buttons on the application
+private slots:
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
+
+// This is the Main Window UI.
+private:
+    Ui::MainWindow *ui;
+};
+
+#endif // MAINWINDOW_H
