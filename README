@@ -1,0 +1,7 @@
+Andrew Guillen
+
+This is a simple README file that contains a screenshot of the Qt app in action along with the Doxygen documentation.
+
+Note: For some reason, I added the proper comments for the Doxygen documentation, but they were not picked up by Doxygen.
+
+![Alt text](C:\Users\Guillen\Desktop\Screenshot hwk1.png "Qt App Screenshot with Doxygen!")
